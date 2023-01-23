@@ -8,7 +8,6 @@ function PlayerHand(props) {
 
     return (
         <div>
-            <p>Your Hand : </p>
             <img className='PlayerCards' src={process.env.PUBLIC_URL + c1} alt="card" />
             <img className='PlayerCards' src={process.env.PUBLIC_URL + c2} alt="card" />
         </div>
