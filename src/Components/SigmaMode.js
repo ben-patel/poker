@@ -11,7 +11,6 @@ function SigmaMode() {
             song.volume = 0.1;
         }else {
             song.pause();
-            song.currentTime = 0;
         }
         count++;
 
