@@ -1,7 +1,7 @@
 import emptyCard from './../empty.png'
 
 function EmptyHand(props) {
-    const side = (props.side === "right" ? "EmptyHandRight" : "EmptyHandLeft");
+    const side = (props.side === "right" ? "EmptyHandBottomRight" : "EmptyHandBottomLeft");
 
     return (
         <div className={side}>
