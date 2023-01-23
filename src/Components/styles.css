@@ -3,7 +3,7 @@
     width: 50%;
     justify-content: space-between;
     position: relative;
-    top : 15%;
+    bottom: 10%;
     left:22%;
     text-align: center;
 }
@@ -15,7 +15,7 @@
 
 .Sigma {
     position: relative;
-    bottom:21%;
+    top: 10%;
 }
 
 .SigmaButton {
@@ -31,11 +31,20 @@
 
 .PlayerHand {
     position: relative;
-    top: 6.5vh;
+    bottom : 20%;
     text-align: center;
     display: flex;
     justify-content: space-between;
 } 
+
+.PlayerHandTop {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom:20vh;
+
+}
 
 .PlayerCards {
     width: 20%;
@@ -45,19 +54,38 @@
 
 .EmptyHandBottomLeft {
     position: relative;
-    bottom: 8vh;
+    bottom: 3vw;
     text-align: center;
-    right : 6vw;
+    right : 4vw;
 }
 
 .EmptyHandBottomRight {
     position: relative;
-    bottom: 8vh;
+    bottom: 3vw;
+    text-align: center;
+    left : 4vw;
+}
+
+.EmptyHandTopLeft {
+    position: relative;
+    top: 4vw;
+    text-align: center;
+    right : 6vw;
+}
+
+.EmptyHandTopRight {
+    position: relative;
+    top: 4vw;
     text-align: center;
     left : 6vw;
 }
 
-.EmptyCards {
+.EmptyCardsTop {
+    width: 30%; 
+    margin-left: 0.1vh;
+}
+
+.EmptyCardsBottom {
     width: 40%; 
     margin-left: 0.1vh;
 }

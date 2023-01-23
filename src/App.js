@@ -14,12 +14,20 @@ function App() {
       <div className="Sigma">
         <SigmaMode/>
       </div>
+
+      <div className='PlayerHandTop'>
+        <EmptyHand side = {2}/>
+        <EmptyHand side = {4}/>
+        <EmptyHand side = {3}/>
+      </div>
+
       <Deck deck={deck}/>
       <p className="TableText"> ♠️ bens poker ♠️ </p>
+
       <div className="PlayerHand">
-        <EmptyHand side = {"left"}/>
+        <EmptyHand side = {0}/>
         <PlayerHand deck={deck}/>
-        <EmptyHand side = {"right"}/>
+        <EmptyHand side = {1}/>
       </div>
     </div>
   );
