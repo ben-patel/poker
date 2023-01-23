@@ -1,23 +1,27 @@
 import audio from './../topg.mp3';
+import {useState} from 'react';
+import Green from "./../green.png"
+import sigmaPhil from "./../philly.jpeg"
 
-let count = 0;
+var song = new Audio(audio); 
 function SigmaMode() {
-    var song = new Audio(audio); 
+    const [isActive, setIsActive] = useState(false);
 
     const SigmaToggle = () => {
-        
-        if (count%2 === 0) {
+        setIsActive(current => !current);
+
+        if (!isActive) {
             song.play(); 
             song.volume = 0.1;
         }else {
             song.pause();
         }
-        count++;
-
     }
     return (
     <div>
-        <button className="SigmaButton" onClick={SigmaToggle}> toggle sigma mode </button>
+        <button className="SigmaButton" onClick={SigmaToggle} style={{backgroundImage: (isActive  ? `url(${sigmaPhil})` : `url(${Green})`)}}> 
+            toggle sigma mode 
+        </button>
     </div>
     )
 }

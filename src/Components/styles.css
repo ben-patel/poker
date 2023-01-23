@@ -17,10 +17,8 @@
 }
 
 .SigmaButton {
-    width: 8vw;
-    height: 8vh;  
-    background-image: url("./../favicon.jpg");
-    background-position: 200px -60px;
+    width: 10vw;
+    height: 10vh;  
     font-size: 1vw;
     font-weight: 700;
     color: white;
