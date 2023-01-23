@@ -20,8 +20,9 @@
     width: 10vw;
     height: 10vh;  
     font-size: 1vw;
-    font-weight: 700;
-    color: white;
+    font-weight: 600;
+    color: rgb(210, 210, 210);
+    font-family:'Times New Roman', Times, serif;
     cursor: pointer;
     border-radius: 10px;
 }
