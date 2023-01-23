@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/poker/static/css/main.da242f17.css",
+    "main.js": "/poker/static/js/main.17a73104.js",
+    "static/js/787.024033e9.chunk.js": "/poker/static/js/787.024033e9.chunk.js",
+    "static/media/topg.mp3": "/poker/static/media/topg.348b2d31d914930d3fb8.mp3",
+    "index.html": "/poker/index.html",
+    "main.da242f17.css.map": "/poker/static/css/main.da242f17.css.map",
+    "main.17a73104.js.map": "/poker/static/js/main.17a73104.js.map",
+    "787.024033e9.chunk.js.map": "/poker/static/js/787.024033e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da242f17.css",
+    "static/js/main.17a73104.js"
+  ]
+}
