@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/poker/static/css/main.3fdf58ea.css",
-    "main.js": "/poker/static/js/main.5c2c8fb8.js",
+    "main.js": "/poker/static/js/main.bc35d220.js",
     "static/media/topg.mp3": "/poker/static/media/topg.348b2d31d914930d3fb8.mp3",
     "index.html": "/poker/index.html",
     "main.3fdf58ea.css.map": "/poker/static/css/main.3fdf58ea.css.map",
-    "main.5c2c8fb8.js.map": "/poker/static/js/main.5c2c8fb8.js.map"
+    "main.bc35d220.js.map": "/poker/static/js/main.bc35d220.js.map"
   },
   "entrypoints": [
     "static/css/main.3fdf58ea.css",
-    "static/js/main.5c2c8fb8.js"
+    "static/js/main.bc35d220.js"
   ]
 }
