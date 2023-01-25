@@ -90,4 +90,11 @@
     margin-left: 0.1vh;
 }
 
+.ShuffleButton {
+    width: 10vw;
+    cursor: pointer;
+    height: 10vh;
+    background-color: aqua;
+}
+
 

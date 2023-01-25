@@ -9,6 +9,7 @@ class Deck {
                 this.deck.push(new Card(i, j));
             }
         }
+    
     }
 
     shuffleDeck() {
